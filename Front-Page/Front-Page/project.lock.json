@@ -3,49 +3,6 @@
   "version": 1,
   "targets": {
     "UAP,Version=v10.0": {
-      "Microsoft.ApplicationInsights/1.0.0": {
-        "compile": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
-        },
-        "runtime": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
-        }
-      },
-      "Microsoft.ApplicationInsights.PersistenceChannel/1.0.0": {
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "[1.0.0, )"
-        },
-        "compile": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
-        },
-        "runtime": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
-        }
-      },
-      "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "[1.0.0, )",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )"
-        },
-        "compile": {
-          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
-        },
-        "runtime": {
-          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
-        }
-      },
-      "Microsoft.Bcl/1.1.9": {
-        "dependencies": {
-          "Microsoft.Bcl.Build": "[1.0.14, )"
-        },
-        "compile": {
-          "lib/win8/_._": {}
-        },
-        "runtime": {
-          "lib/win8/_._": {}
-        }
-      },
-      "Microsoft.Bcl.Build/1.0.14": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -70,20 +27,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.Net.Http/2.2.22": {
-        "dependencies": {
-          "Microsoft.Bcl": "[1.1.9, )",
-          "Microsoft.Bcl.Build": "[1.0.14, )"
-        },
-        "compile": {
-          "lib/win8/System.Net.Http.Primitives.dll": {},
-          "lib/win8/System.Net.Http.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/win8/System.Net.Http.Primitives.dll": {},
-          "lib/win8/System.Net.Http.Extensions.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -264,18 +207,6 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
-        }
-      },
-      "SnooSharp/1.0.1": {
-        "dependencies": {
-          "Microsoft.Net.Http": "[2.2.22, )",
-          "Newtonsoft.Json": "[6.0.3, )"
-        },
-        "compile": {
-          "lib/portable-net45+win+wpa81+wp80/SnooSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win+wpa81+wp80/SnooSharp.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -1613,7 +1544,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Template10/1.0.0": {
+      "Template10/1.0.3": {
         "dependencies": {
           "Newtonsoft.Json": "[7.0.1, )"
         },
@@ -1630,49 +1561,6 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
-      "Microsoft.ApplicationInsights/1.0.0": {
-        "compile": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
-        },
-        "runtime": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
-        }
-      },
-      "Microsoft.ApplicationInsights.PersistenceChannel/1.0.0": {
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "[1.0.0, )"
-        },
-        "compile": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
-        },
-        "runtime": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
-        }
-      },
-      "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "[1.0.0, )",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )"
-        },
-        "compile": {
-          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
-        },
-        "runtime": {
-          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
-        }
-      },
-      "Microsoft.Bcl/1.1.9": {
-        "dependencies": {
-          "Microsoft.Bcl.Build": "[1.0.14, )"
-        },
-        "compile": {
-          "lib/win8/_._": {}
-        },
-        "runtime": {
-          "lib/win8/_._": {}
-        }
-      },
-      "Microsoft.Bcl.Build/1.0.14": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -1697,20 +1585,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.Net.Http/2.2.22": {
-        "dependencies": {
-          "Microsoft.Bcl": "[1.1.9, )",
-          "Microsoft.Bcl.Build": "[1.0.14, )"
-        },
-        "compile": {
-          "lib/win8/System.Net.Http.Primitives.dll": {},
-          "lib/win8/System.Net.Http.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/win8/System.Net.Http.Primitives.dll": {},
-          "lib/win8/System.Net.Http.Extensions.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -1934,18 +1808,6 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
-        }
-      },
-      "SnooSharp/1.0.1": {
-        "dependencies": {
-          "Microsoft.Net.Http": "[2.2.22, )",
-          "Newtonsoft.Json": "[6.0.3, )"
-        },
-        "compile": {
-          "lib/portable-net45+win+wpa81+wp80/SnooSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win+wpa81+wp80/SnooSharp.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -3330,7 +3192,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Template10/1.0.0": {
+      "Template10/1.0.3": {
         "dependencies": {
           "Newtonsoft.Json": "[7.0.1, )"
         },
@@ -3347,49 +3209,6 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
-      "Microsoft.ApplicationInsights/1.0.0": {
-        "compile": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
-        },
-        "runtime": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
-        }
-      },
-      "Microsoft.ApplicationInsights.PersistenceChannel/1.0.0": {
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "[1.0.0, )"
-        },
-        "compile": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
-        },
-        "runtime": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
-        }
-      },
-      "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "[1.0.0, )",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )"
-        },
-        "compile": {
-          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
-        },
-        "runtime": {
-          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
-        }
-      },
-      "Microsoft.Bcl/1.1.9": {
-        "dependencies": {
-          "Microsoft.Bcl.Build": "[1.0.14, )"
-        },
-        "compile": {
-          "lib/win8/_._": {}
-        },
-        "runtime": {
-          "lib/win8/_._": {}
-        }
-      },
-      "Microsoft.Bcl.Build/1.0.14": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -3414,20 +3233,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.Net.Http/2.2.22": {
-        "dependencies": {
-          "Microsoft.Bcl": "[1.1.9, )",
-          "Microsoft.Bcl.Build": "[1.0.14, )"
-        },
-        "compile": {
-          "lib/win8/System.Net.Http.Primitives.dll": {},
-          "lib/win8/System.Net.Http.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/win8/System.Net.Http.Primitives.dll": {},
-          "lib/win8/System.Net.Http.Extensions.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -3637,18 +3442,6 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
-        }
-      },
-      "SnooSharp/1.0.1": {
-        "dependencies": {
-          "Microsoft.Net.Http": "[2.2.22, )",
-          "Newtonsoft.Json": "[6.0.3, )"
-        },
-        "compile": {
-          "lib/portable-net45+win+wpa81+wp80/SnooSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win+wpa81+wp80/SnooSharp.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -5019,7 +4812,7 @@
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Template10/1.0.0": {
+      "Template10/1.0.3": {
         "dependencies": {
           "Newtonsoft.Json": "[7.0.1, )"
         },
@@ -5036,49 +4829,6 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
-      "Microsoft.ApplicationInsights/1.0.0": {
-        "compile": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
-        },
-        "runtime": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
-        }
-      },
-      "Microsoft.ApplicationInsights.PersistenceChannel/1.0.0": {
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "[1.0.0, )"
-        },
-        "compile": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
-        },
-        "runtime": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
-        }
-      },
-      "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "[1.0.0, )",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )"
-        },
-        "compile": {
-          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
-        },
-        "runtime": {
-          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
-        }
-      },
-      "Microsoft.Bcl/1.1.9": {
-        "dependencies": {
-          "Microsoft.Bcl.Build": "[1.0.14, )"
-        },
-        "compile": {
-          "lib/win8/_._": {}
-        },
-        "runtime": {
-          "lib/win8/_._": {}
-        }
-      },
-      "Microsoft.Bcl.Build/1.0.14": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -5103,20 +4853,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.Net.Http/2.2.22": {
-        "dependencies": {
-          "Microsoft.Bcl": "[1.1.9, )",
-          "Microsoft.Bcl.Build": "[1.0.14, )"
-        },
-        "compile": {
-          "lib/win8/System.Net.Http.Primitives.dll": {},
-          "lib/win8/System.Net.Http.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/win8/System.Net.Http.Primitives.dll": {},
-          "lib/win8/System.Net.Http.Extensions.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -5347,18 +5083,6 @@
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
       },
-      "SnooSharp/1.0.1": {
-        "dependencies": {
-          "Microsoft.Net.Http": "[2.2.22, )",
-          "Newtonsoft.Json": "[6.0.3, )"
-        },
-        "compile": {
-          "lib/portable-net45+win+wpa81+wp80/SnooSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win+wpa81+wp80/SnooSharp.dll": {}
-        }
-      },
       "System.AppContext/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -6741,7 +6465,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Template10/1.0.0": {
+      "Template10/1.0.3": {
         "dependencies": {
           "Newtonsoft.Json": "[7.0.1, )"
         },
@@ -6758,49 +6482,6 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
-      "Microsoft.ApplicationInsights/1.0.0": {
-        "compile": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
-        },
-        "runtime": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
-        }
-      },
-      "Microsoft.ApplicationInsights.PersistenceChannel/1.0.0": {
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "[1.0.0, )"
-        },
-        "compile": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
-        },
-        "runtime": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
-        }
-      },
-      "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "[1.0.0, )",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )"
-        },
-        "compile": {
-          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
-        },
-        "runtime": {
-          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
-        }
-      },
-      "Microsoft.Bcl/1.1.9": {
-        "dependencies": {
-          "Microsoft.Bcl.Build": "[1.0.14, )"
-        },
-        "compile": {
-          "lib/win8/_._": {}
-        },
-        "runtime": {
-          "lib/win8/_._": {}
-        }
-      },
-      "Microsoft.Bcl.Build/1.0.14": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -6825,20 +6506,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.Net.Http/2.2.22": {
-        "dependencies": {
-          "Microsoft.Bcl": "[1.1.9, )",
-          "Microsoft.Bcl.Build": "[1.0.14, )"
-        },
-        "compile": {
-          "lib/win8/System.Net.Http.Primitives.dll": {},
-          "lib/win8/System.Net.Http.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/win8/System.Net.Http.Primitives.dll": {},
-          "lib/win8/System.Net.Http.Extensions.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -7048,18 +6715,6 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
-        }
-      },
-      "SnooSharp/1.0.1": {
-        "dependencies": {
-          "Microsoft.Net.Http": "[2.2.22, )",
-          "Newtonsoft.Json": "[6.0.3, )"
-        },
-        "compile": {
-          "lib/portable-net45+win+wpa81+wp80/SnooSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win+wpa81+wp80/SnooSharp.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -8430,7 +8085,7 @@
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Template10/1.0.0": {
+      "Template10/1.0.3": {
         "dependencies": {
           "Newtonsoft.Json": "[7.0.1, )"
         },
@@ -8447,49 +8102,6 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
-      "Microsoft.ApplicationInsights/1.0.0": {
-        "compile": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
-        },
-        "runtime": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
-        }
-      },
-      "Microsoft.ApplicationInsights.PersistenceChannel/1.0.0": {
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "[1.0.0, )"
-        },
-        "compile": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
-        },
-        "runtime": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
-        }
-      },
-      "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "[1.0.0, )",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )"
-        },
-        "compile": {
-          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
-        },
-        "runtime": {
-          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
-        }
-      },
-      "Microsoft.Bcl/1.1.9": {
-        "dependencies": {
-          "Microsoft.Bcl.Build": "[1.0.14, )"
-        },
-        "compile": {
-          "lib/win8/_._": {}
-        },
-        "runtime": {
-          "lib/win8/_._": {}
-        }
-      },
-      "Microsoft.Bcl.Build/1.0.14": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -8514,20 +8126,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.Net.Http/2.2.22": {
-        "dependencies": {
-          "Microsoft.Bcl": "[1.1.9, )",
-          "Microsoft.Bcl.Build": "[1.0.14, )"
-        },
-        "compile": {
-          "lib/win8/System.Net.Http.Primitives.dll": {},
-          "lib/win8/System.Net.Http.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/win8/System.Net.Http.Primitives.dll": {},
-          "lib/win8/System.Net.Http.Extensions.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -8758,18 +8356,6 @@
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
         }
       },
-      "SnooSharp/1.0.1": {
-        "dependencies": {
-          "Microsoft.Net.Http": "[2.2.22, )",
-          "Newtonsoft.Json": "[6.0.3, )"
-        },
-        "compile": {
-          "lib/portable-net45+win+wpa81+wp80/SnooSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win+wpa81+wp80/SnooSharp.dll": {}
-        }
-      },
       "System.AppContext/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -10152,7 +9738,7 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Template10/1.0.0": {
+      "Template10/1.0.3": {
         "dependencies": {
           "Newtonsoft.Json": "[7.0.1, )"
         },
@@ -10169,49 +9755,6 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
-      "Microsoft.ApplicationInsights/1.0.0": {
-        "compile": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
-        },
-        "runtime": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll": {}
-        }
-      },
-      "Microsoft.ApplicationInsights.PersistenceChannel/1.0.0": {
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "[1.0.0, )"
-        },
-        "compile": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
-        },
-        "runtime": {
-          "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll": {}
-        }
-      },
-      "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
-        "dependencies": {
-          "Microsoft.ApplicationInsights": "[1.0.0, )",
-          "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )"
-        },
-        "compile": {
-          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
-        },
-        "runtime": {
-          "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll": {}
-        }
-      },
-      "Microsoft.Bcl/1.1.9": {
-        "dependencies": {
-          "Microsoft.Bcl.Build": "[1.0.14, )"
-        },
-        "compile": {
-          "lib/win8/_._": {}
-        },
-        "runtime": {
-          "lib/win8/_._": {}
-        }
-      },
-      "Microsoft.Bcl.Build/1.0.14": {},
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Runtime": "[4.0.20, )",
@@ -10236,20 +9779,6 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.Net.Http/2.2.22": {
-        "dependencies": {
-          "Microsoft.Bcl": "[1.1.9, )",
-          "Microsoft.Bcl.Build": "[1.0.14, )"
-        },
-        "compile": {
-          "lib/win8/System.Net.Http.Primitives.dll": {},
-          "lib/win8/System.Net.Http.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/win8/System.Net.Http.Primitives.dll": {},
-          "lib/win8/System.Net.Http.Extensions.dll": {}
         }
       },
       "Microsoft.NETCore/5.0.0": {
@@ -10459,18 +9988,6 @@
         },
         "runtime": {
           "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll": {}
-        }
-      },
-      "SnooSharp/1.0.1": {
-        "dependencies": {
-          "Microsoft.Net.Http": "[2.2.22, )",
-          "Newtonsoft.Json": "[6.0.3, )"
-        },
-        "compile": {
-          "lib/portable-net45+win+wpa81+wp80/SnooSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable-net45+win+wpa81+wp80/SnooSharp.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -11841,7 +11358,7 @@
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Template10/1.0.0": {
+      "Template10/1.0.3": {
         "dependencies": {
           "Newtonsoft.Json": "[7.0.1, )"
         },
@@ -11859,179 +11376,6 @@
     }
   },
   "libraries": {
-    "Microsoft.ApplicationInsights/1.0.0": {
-      "sha512": "HZ47/thX57SOuIivSvIbsR6L9CCb/Yt3IyB2i4KHmmNlf3DO+lqFwWIKDdbDNWKX+qh0Rg20/JSMPK0dwUsYYw==",
-      "type": "Package",
-      "files": [
-        "_rels/.rels",
-        "Microsoft.ApplicationInsights.nuspec",
-        "lib/net40/Microsoft.ApplicationInsights.dll",
-        "lib/net40/Microsoft.ApplicationInsights.XML",
-        "lib/net45/Microsoft.ApplicationInsights.dll",
-        "lib/net45/Microsoft.ApplicationInsights.XML",
-        "lib/wp8/Microsoft.ApplicationInsights.dll",
-        "lib/wp8/Microsoft.ApplicationInsights.XML",
-        "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.dll",
-        "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.XML",
-        "package/services/metadata/core-properties/b9e7bc7ab2454491af07046165ff01d0.psmdcp",
-        "[Content_Types].xml"
-      ]
-    },
-    "Microsoft.ApplicationInsights.PersistenceChannel/1.0.0": {
-      "sha512": "0qQXC+CtbyF2RPuld5pF74fxsnP6ml0LUnzQ6GL9AXXY64LPsLDsPUAymoUffo7LZvPDppZboTYX59TfVxKA7A==",
-      "type": "Package",
-      "files": [
-        "_rels/.rels",
-        "Microsoft.ApplicationInsights.PersistenceChannel.nuspec",
-        "lib/net40/Microsoft.ApplicationInsights.PersistenceChannel.dll",
-        "lib/net40/Microsoft.ApplicationInsights.PersistenceChannel.XML",
-        "lib/wp8/Microsoft.ApplicationInsights.PersistenceChannel.dll",
-        "lib/wp8/Microsoft.ApplicationInsights.PersistenceChannel.XML",
-        "lib/portable-win81+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.dll",
-        "lib/portable-win8+wpa81/Microsoft.ApplicationInsights.PersistenceChannel.XML",
-        "package/services/metadata/core-properties/dc9ebba80e7343fdbd0a39a3cdeb672c.psmdcp",
-        "[Content_Types].xml"
-      ]
-    },
-    "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
-      "sha512": "fNCAjIwvbTV+G0dT14bgM5tptsqeSaKQaCrlq7QknOq1Xdm8ZmgsDYddMgXkvykyKLjWyU6fKuOpj6fsQJy+wQ==",
-      "type": "Package",
-      "files": [
-        "_rels/.rels",
-        "Microsoft.ApplicationInsights.WindowsApps.nuspec",
-        "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.dll",
-        "lib/win81/Microsoft.ApplicationInsights.Extensibility.Windows.XML",
-        "lib/wp8/Microsoft.ApplicationInsights.Extensibility.Windows.dll",
-        "lib/wp8/Microsoft.ApplicationInsights.Extensibility.Windows.XML",
-        "lib/wpa81/Microsoft.ApplicationInsights.Extensibility.Windows.dll",
-        "lib/wpa81/Microsoft.ApplicationInsights.Extensibility.Windows.XML",
-        "package/services/metadata/core-properties/4f6f732debe548beaa1183418e8d65cc.psmdcp",
-        "[Content_Types].xml"
-      ]
-    },
-    "Microsoft.Bcl/1.1.9": {
-      "sha512": "USQ55innJy8K+tAXvVa1O8dUTp2s7pmJ5cJj6Tl02HtGc2xBDj0P2QH5620HbGXIWKWYhydoeQF8Rm/JRDBGhw==",
-      "type": "Package",
-      "files": [
-        "_rels/.rels",
-        "Microsoft.Bcl.nuspec",
-        "License-Stable.rtf",
-        "lib/net45/_._",
-        "content/net45/_._",
-        "lib/wp8/_._",
-        "content/wp8/_._",
-        "lib/wpa81/_._",
-        "content/wpa81/_._",
-        "lib/win8/_._",
-        "content/win8/_._",
-        "lib/monotouch/_._",
-        "content/monotouch/_._",
-        "lib/monoandroid/_._",
-        "content/monoandroid/_._",
-        "lib/portable-net45+win8+wp8+wpa81/_._",
-        "content/portable-net45+win8+wp8+wpa81/_._",
-        "lib/portable-net45+win8+wpa81/_._",
-        "content/portable-net45+win8+wpa81/_._",
-        "lib/portable-net451+win81/_._",
-        "content/portable-net451+win81/_._",
-        "lib/portable-net451+win81+wpa81/_._",
-        "content/portable-net451+win81+wpa81/_._",
-        "lib/portable-win81+wp81+wpa81/_._",
-        "content/portable-win81+wp81+wpa81/_._",
-        "lib/net40/System.IO.dll",
-        "lib/net40/System.IO.xml",
-        "lib/net40/System.Runtime.dll",
-        "lib/net40/System.Runtime.xml",
-        "lib/net40/System.Threading.Tasks.dll",
-        "lib/net40/System.Threading.Tasks.xml",
-        "lib/net40/ensureRedirect.xml",
-        "lib/sl4/System.IO.dll",
-        "lib/sl4/System.IO.xml",
-        "lib/sl4/System.Runtime.dll",
-        "lib/sl4/System.Runtime.xml",
-        "lib/sl4/System.Threading.Tasks.dll",
-        "lib/sl4/System.Threading.Tasks.xml",
-        "content/sl4/_._",
-        "lib/sl5/System.IO.dll",
-        "lib/sl5/System.IO.xml",
-        "lib/sl5/System.Runtime.dll",
-        "lib/sl5/System.Runtime.xml",
-        "lib/sl5/System.Threading.Tasks.dll",
-        "lib/sl5/System.Threading.Tasks.xml",
-        "content/sl5/_._",
-        "lib/sl4-windowsphone71/System.IO.dll",
-        "lib/sl4-windowsphone71/System.IO.xml",
-        "lib/sl4-windowsphone71/System.Runtime.dll",
-        "lib/sl4-windowsphone71/System.Runtime.xml",
-        "lib/sl4-windowsphone71/System.Threading.Tasks.dll",
-        "lib/sl4-windowsphone71/System.Threading.Tasks.xml",
-        "lib/sl4-windowsphone71/ensureRedirect.xml",
-        "lib/portable-net40+sl4+win8+wp71+wpa81/System.IO.dll",
-        "lib/portable-net40+sl4+win8+wp71+wpa81/System.IO.xml",
-        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Runtime.dll",
-        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Runtime.xml",
-        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Threading.Tasks.dll",
-        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Threading.Tasks.xml",
-        "lib/portable-net40+sl4+win8+wp71+wpa81/ensureRedirect.xml",
-        "lib/portable-net40+sl4+win8+wp8+wpa81/System.IO.dll",
-        "lib/portable-net40+sl4+win8+wp8+wpa81/System.IO.xml",
-        "lib/portable-net40+sl4+win8+wp8+wpa81/System.Runtime.dll",
-        "lib/portable-net40+sl4+win8+wp8+wpa81/System.Runtime.xml",
-        "lib/portable-net40+sl4+win8+wp8+wpa81/System.Threading.Tasks.dll",
-        "lib/portable-net40+sl4+win8+wp8+wpa81/System.Threading.Tasks.xml",
-        "lib/portable-net40+sl4+win8+wp8+wpa81/ensureRedirect.xml",
-        "lib/portable-net40+sl4+win8/System.IO.dll",
-        "lib/portable-net40+sl4+win8/System.IO.xml",
-        "lib/portable-net40+sl4+win8/System.Runtime.dll",
-        "lib/portable-net40+sl4+win8/System.Runtime.xml",
-        "lib/portable-net40+sl4+win8/System.Threading.Tasks.dll",
-        "lib/portable-net40+sl4+win8/System.Threading.Tasks.xml",
-        "lib/portable-net40+sl4+win8/ensureRedirect.xml",
-        "lib/portable-net40+win8/System.IO.dll",
-        "lib/portable-net40+win8/System.IO.xml",
-        "lib/portable-net40+win8/System.Runtime.dll",
-        "lib/portable-net40+win8/System.Runtime.xml",
-        "lib/portable-net40+win8/System.Threading.Tasks.dll",
-        "lib/portable-net40+win8/System.Threading.Tasks.xml",
-        "lib/portable-net40+win8/ensureRedirect.xml",
-        "lib/portable-net40+win8+wp8+wpa81/System.IO.dll",
-        "lib/portable-net40+win8+wp8+wpa81/System.IO.xml",
-        "lib/portable-net40+win8+wp8+wpa81/System.Runtime.dll",
-        "lib/portable-net40+win8+wp8+wpa81/System.Runtime.xml",
-        "lib/portable-net40+win8+wp8+wpa81/System.Threading.Tasks.dll",
-        "lib/portable-net40+win8+wp8+wpa81/System.Threading.Tasks.xml",
-        "lib/portable-net40+win8+wp8+wpa81/ensureRedirect.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/System.IO.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/System.IO.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/System.Runtime.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/System.Runtime.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/System.Threading.Tasks.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/System.Threading.Tasks.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/ensureRedirect.xml",
-        "package/services/metadata/core-properties/a2c2e4aac469425ea858153a6ad602c0.psmdcp",
-        "[Content_Types].xml"
-      ]
-    },
-    "Microsoft.Bcl.Build/1.0.14": {
-      "sha512": "cDLKSvNvRa519hplsbSoYqO69TjdDIhfjtKUM0g20/nVROoWsGav9KCI9HtnGjLmdV1+TcUUDhbotcllibjPEA==",
-      "type": "Package",
-      "files": [
-        "_rels/.rels",
-        "Microsoft.Bcl.Build.nuspec",
-        "License-Stable.rtf",
-        "content/sl4/_._",
-        "content/net40/_._",
-        "content/netcore45/_._",
-        "content/sl4-windowsphone71/_._",
-        "content/portable-net40+win8+sl4+wp71+wpa81/_._",
-        "tools/Install.ps1",
-        "tools/Uninstall.ps1",
-        "tools/Microsoft.Bcl.Build.targets",
-        "tools/Microsoft.Bcl.Build.Tasks.dll",
-        "package/services/metadata/core-properties/ded9cfb683144eaba586f13af4ae979c.psmdcp",
-        "[Content_Types].xml"
-      ]
-    },
     "Microsoft.CSharp/4.0.0": {
       "sha512": "oWqeKUxHXdK6dL2CFjgMcaBISbkk+AqEg+yvJHE4DElNzS4QaTsCflgkkqZwVlWby1Dg9zo9n+iCAMFefFdJ/A==",
       "type": "Package",
@@ -12070,70 +11414,6 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "package/services/metadata/core-properties/a8a7171824ab4656b3141cda0591ff66.psmdcp",
-        "[Content_Types].xml"
-      ]
-    },
-    "Microsoft.Net.Http/2.2.22": {
-      "sha512": "bqVLJ2UimlAEs2bn3y28lB1pmFRxuysv9pFyB0A86WEMYGYTfDyfjAGjm0fiaSRjlMNU1jVnp8Mxt8qe4OmpXQ==",
-      "type": "Package",
-      "files": [
-        "_rels/.rels",
-        "Microsoft.Net.Http.nuspec",
-        "License-Stable.rtf",
-        "lib/sl4-windowsphone71/System.Net.Http.dll",
-        "lib/sl4-windowsphone71/System.Net.Http.xml",
-        "lib/sl4-windowsphone71/System.Net.Http.Primitives.dll",
-        "lib/sl4-windowsphone71/System.Net.Http.Primitives.XML",
-        "lib/sl4-windowsphone71/System.Net.Http.Extensions.dll",
-        "lib/sl4-windowsphone71/System.Net.Http.Extensions.XML",
-        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.dll",
-        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.xml",
-        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Primitives.dll",
-        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Primitives.XML",
-        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Extensions.dll",
-        "lib/portable-net40+sl4+win8+wp71+wpa81/System.Net.Http.Extensions.XML",
-        "lib/portable-net40+sl4+win8+wp71+wpa81/ensureRedirect.xml",
-        "lib/net40/System.Net.Http.dll",
-        "lib/net40/System.Net.Http.xml",
-        "lib/net40/System.Net.Http.Primitives.dll",
-        "lib/net40/System.Net.Http.Primitives.xml",
-        "lib/net40/System.Net.Http.WebRequest.dll",
-        "lib/net40/System.Net.Http.WebRequest.xml",
-        "lib/net40/System.Net.Http.Extensions.dll",
-        "lib/net40/System.Net.Http.Extensions.XML",
-        "lib/net40/ensureRedirect.xml",
-        "lib/net45/System.Net.Http.Primitives.dll",
-        "lib/net45/System.Net.Http.Primitives.xml",
-        "lib/net45/System.Net.Http.Extensions.dll",
-        "lib/net45/System.Net.Http.Extensions.XML",
-        "lib/net45/ensureRedirect.xml",
-        "lib/monotouch/System.Net.Http.Primitives.dll",
-        "lib/monotouch/System.Net.Http.Primitives.xml",
-        "lib/monotouch/System.Net.Http.Extensions.dll",
-        "lib/monotouch/System.Net.Http.Extensions.XML",
-        "lib/monoandroid/System.Net.Http.Primitives.dll",
-        "lib/monoandroid/System.Net.Http.Primitives.xml",
-        "lib/monoandroid/System.Net.Http.Extensions.dll",
-        "lib/monoandroid/System.Net.Http.Extensions.XML",
-        "lib/win8/System.Net.Http.Primitives.dll",
-        "lib/win8/System.Net.Http.Primitives.xml",
-        "lib/win8/System.Net.Http.Extensions.dll",
-        "lib/win8/System.Net.Http.Extensions.XML",
-        "lib/wpa81/System.Net.Http.Primitives.dll",
-        "lib/wpa81/System.Net.Http.Primitives.xml",
-        "lib/wpa81/System.Net.Http.Extensions.dll",
-        "lib/wpa81/System.Net.Http.Extensions.XML",
-        "lib/portable-net45+win8+wpa81/System.Net.Http.Primitives.dll",
-        "lib/portable-net45+win8+wpa81/System.Net.Http.Primitives.xml",
-        "lib/portable-net45+win8+wpa81/System.Net.Http.Extensions.dll",
-        "lib/portable-net45+win8+wpa81/System.Net.Http.Extensions.XML",
-        "lib/portable-net45+win8+wpa81/ensureRedirect.xml",
-        "lib/portable-net45+win8/System.Net.Http.Primitives.dll",
-        "lib/portable-net45+win8/System.Net.Http.Primitives.xml",
-        "lib/portable-net45+win8/System.Net.Http.Extensions.dll",
-        "lib/portable-net45+win8/System.Net.Http.Extensions.XML",
-        "lib/portable-net45+win8/ensureRedirect.xml",
-        "package/services/metadata/core-properties/4bcd5cfc1347448983b7f3ddb3d6d517.psmdcp",
         "[Content_Types].xml"
       ]
     },
@@ -12769,17 +12049,6 @@
         "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
         "tools/install.ps1",
         "package/services/metadata/core-properties/49e907fc018c4c7ab632e6d4ad4766f8.psmdcp",
-        "[Content_Types].xml"
-      ]
-    },
-    "SnooSharp/1.0.1": {
-      "sha512": "efF4bthVekrCLHRkXCOA/vx9mvnL+BLNazmnenxBqG6C5unJdQv9m1HOTzymyqn44evtdNKnhuHpresu/DnYKQ==",
-      "type": "Package",
-      "files": [
-        "_rels/.rels",
-        "SnooSharp.nuspec",
-        "lib/portable-net45+win+wpa81+wp80/SnooSharp.dll",
-        "package/services/metadata/core-properties/b03558fb9ff342b99d12e2a6198f7b4b.psmdcp",
         "[Content_Types].xml"
       ]
     },
@@ -15478,8 +14747,8 @@
         "[Content_Types].xml"
       ]
     },
-    "Template10/1.0.0": {
-      "sha512": "QB1/ayu5IyhJDY3cEP3yLnZSZCgXvU9UWBZEhiLv9IbaLGzFVTFPL9xjxsJQjXH/ES4cqSvbJ7NpoF1swsgmCg==",
+    "Template10/1.0.3": {
+      "sha512": "NA5nDymZ/Lg3yW9HQsZTfaeRtdGsfj4026du57xlrCxTa3wWhXB9okmlgGojMNV02qASNrs6WIraK1EBKo0EXw==",
       "type": "Package",
       "files": [
         "_rels/.rels",
@@ -15490,27 +14759,21 @@
         "lib/uap10.0/Template10Library.pri",
         "lib/uap10.0/Template10Library/Template10Library.xr.xml",
         "lib/uap10.0/Template10Library/Controls/HamburgerMenu.xaml",
-        "lib/uap10.0/Template10Library/Controls/HamburgerMenu.xbf",
         "lib/uap10.0/Template10Library/Controls/PageHeader.xaml",
-        "lib/uap10.0/Template10Library/Controls/PageHeader.xbf",
+        "lib/uap10.0/Template10Library/Controls/Resizer.xaml",
         "lib/uap10.0/Template10Library/Properties/Template10Library.rd.xml",
         "lib/uap10.0/Template10Library/Styles/Mdl2.xaml",
-        "lib/uap10.0/Template10Library/Styles/Mdl2.xbf",
-        "build/Template10.targets",
         "build/uap10.0/Template10.targets",
-        "package/services/metadata/core-properties/c06338c54d8045d694a81099912177bb.psmdcp",
+        "package/services/metadata/core-properties/d0f8e141df9e4f288020ddf7483acb8f.psmdcp",
         "[Content_Types].xml"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.ApplicationInsights >= 1.0.0",
-      "Microsoft.ApplicationInsights.PersistenceChannel >= 1.0.0",
-      "Microsoft.ApplicationInsights.WindowsApps >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
-      "SnooSharp >= 1.0.1",
-      "Template10 >= 1.0.0"
+      "Newtonsoft.Json >= 7.0.1",
+      "Template10 >= 1.0.*"
     ],
     "UAP,Version=v10.0": []
   }
